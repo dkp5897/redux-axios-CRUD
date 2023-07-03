@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+form {
+  font-size: 25px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+}
+input {
+  display: inline;
+  width: 80%;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+table {
+  text-align: center;
+  margin: 35px auto;
+  background-color: red;
+  width: 80%;
+}
+
+thead {
+  background-color: aquamarine;
+  margin: 10px;
+}
+
+tr > th,
+td {
+  padding: 10px;
+  font-size: 20px;
+}
+
+tbody {
+  background-color: beige;
+}
+h1{
+  text-align: center;
+}
+button{
+  margin-top: 25px;
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: 700;
+
+  &:hover{
+    background-color: black;
+    color: aliceblue;
+  }
+}
